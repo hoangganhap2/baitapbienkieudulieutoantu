@@ -1,0 +1,13 @@
+let inputphysical;
+let inputchemistry;
+let inputbiological;
+inputphysical = prompt("Enter the physical");
+inputchemistry = prompt("Enter the chemistry");
+inputbiological = prompt("Enter the biological ");
+let physical = parseInt(inputphysical);
+let chemistry = parseInt(inputchemistry);
+let biological = parseInt(inputbiological);
+let sum = physical+chemistry+biological ;
+alert(" The sum is: "+ sum);
+let ave = sum/3;
+alert("The ave is: " + ave);
