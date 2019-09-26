@@ -1,6 +1,6 @@
 let inputr
-let inputpi = 3.14;
+let pi = 3.14;
 inputr = prompt("Nhập bán kính:");
 let r = parseInt(inputr);
-let S = r*r*3.14;
+let S = r*r*pi;
 alert("Diện tích hình tròn là : "+ S)
